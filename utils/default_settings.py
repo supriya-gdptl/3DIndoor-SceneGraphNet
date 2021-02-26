@@ -3,7 +3,7 @@ import os, json
 from utils.utl import try_mkdir
 
 ''' CHANGE TO YOUR OWN DATASET DIRECTORY '''
-root_dir = r'/YOUR/DATASET/DIRECTORY'
+root_dir = r'../../data/SGN_DATA'
 
 pkl_dir = os.path.join(root_dir, 'data')
 log_dir = os.path.join(root_dir, 'nn', 'logs')
